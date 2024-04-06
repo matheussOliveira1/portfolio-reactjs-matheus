@@ -13,6 +13,16 @@ header {
   color: #ff003d;
 }
 
+.a-header:hover{
+  cursor: pointer;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #ff003d;
+}
+
 /******************************************************************************************
                                          1920x1080
 ******************************************************************************************/
@@ -20,10 +30,31 @@ header {
 @media screen and (min-width: 1024px) {
   header {
     display: flex;
-    font-size: 25px;
+    font-size: 23px;
     align-items: center;
     justify-content: center;
     gap: 90px;
     padding: 30px 0;
+  }
+
+  .a-caractere-chave-resumo {
+    color: #ff003d;
+    font-size: 350px;
+    font-weight: 250;
+    font-family: "Inter", sans-serif;
+  }
+
+  .p-resumo {
+    color: white;
+    text-align: justify;
+    font-size: 25px;
+    width: 35%;
+    margin: 25px;
+  }
+
+  .container-resumo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
