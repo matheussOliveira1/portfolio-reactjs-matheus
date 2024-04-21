@@ -1,6 +1,6 @@
 import "../App.css";
 
-function ButtonEmpresa(props) {
+function BotaoEmpresa(props) {
   let setTextoExperiencias = props.variable;
 
   const btnEmpresa = document.getElementsByClassName(
@@ -11,7 +11,7 @@ function ButtonEmpresa(props) {
     switch (e) {
       case "acc":
         setTextoExperiencias(
-          "Na Accenture, realizei refatoração de código, interação com clientes,\n" +
+          "Na Accenture, realizei tarefas com refatoração de código, interação com clientes,\n" +
             "uso de banco de dados SQL via DBeaver, análise de dados, scripts\n" +
             "Python para automações e manipulação de dados em Excel, e também\n" +
             "trabalhei com a estruturação e criação de JSON, fortalecendo meu\n" +
@@ -52,4 +52,4 @@ function ButtonEmpresa(props) {
   );
 }
 
-export default ButtonEmpresa;
+export default BotaoEmpresa;

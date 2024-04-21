@@ -12,7 +12,7 @@ function Resumo() {
           desde agosto de 2022 e dois anos de acadêmico.
           <br />
           <br />
-          Minha paixão é desenvolver. Quero contribuir para a evolução da
+          Minha paixão é desenvolver. Quero poder contribuir para a evolução da
           indústria de software e estou pronto para novos desafios e
           oportunidades!”
         </p>

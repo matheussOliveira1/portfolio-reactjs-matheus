@@ -28,6 +28,11 @@ h2 {
 ******************************************************************************************/
 
 @media screen and (min-width: 1024px) {
+  
+  /******************************************************************************************
+                                         Header
+  ******************************************************************************************/
+  
   header {
     display: flex;
     font-size: 23px;
@@ -37,11 +42,20 @@ h2 {
     padding: 30px 0;
   }
 
+  /******************************************************************************************
+                                         Sessão de Resumo
+  ******************************************************************************************/
+
   .a-caractere-chave-resumo {
     color: #ff003d;
     font-size: 350px;
     font-weight: 250;
     font-family: "Inter", sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
 
   .p-resumo {
@@ -57,6 +71,10 @@ h2 {
     align-items: center;
     justify-content: center;
   }
+
+  /******************************************************************************************
+                                         Sessão de Experiencias
+  ******************************************************************************************/
 
   #container-experiencias{
     display: flex;
@@ -116,4 +134,50 @@ h2 {
   #p-texto-experiencias{
     width: 650px;
   }
+
+  /******************************************************************************************
+                                         Sessão de Tecnologias
+  ******************************************************************************************/
+
+  #container-tecnologias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #box-tecnologias{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  #div-square-tecnologia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 150px;
+    border: 2px solid #424141;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    row-gap: 10px;
+  }
+
+  #div-square-tecnologia:hover{
+    cursor: pointer;
+  }
+
+  #img-tecnologia{
+    border-radius: 5px;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
 }
