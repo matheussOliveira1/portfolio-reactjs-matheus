@@ -57,4 +57,63 @@ h2 {
     align-items: center;
     justify-content: center;
   }
+
+  #container-experiencias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #box-botoes-experiencias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .box-botoes-experiencias{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+
+  .box-botoes-experiencias:hover{
+    cursor: pointer;
+  }
+
+  #spn-botao-experiencia{
+    width: 150px;
+  }
+
+  .btn-empresa-experiencias{
+    background-color: #FF003D;
+    border-radius: 50px;
+    border: 2px solid #424141;
+    width: 10px;
+    height: 45px;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+
+  }
+
+  #div-box-texto-experiencias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 400px;
+    border: 2px solid #424141;
+    border-radius: 5px;
+    background-color: #171717;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  #p-texto-experiencias{
+    width: 650px;
+  }
 }
