@@ -17,7 +17,7 @@ import git from "../assets/git.png";
 function Tecnologias() {
   return (
     <>
-      <h2>Tecnologias:</h2>
+      <h2 id="h2-tecnologias">Tecnologias:</h2>
       <div id="container-tecnologias">
         <div id="box-tecnologias">
           <ItemTecnologia srcImg={logoJs} tecnologia="JavaScript" /*https://icons8.com.br/*/ />

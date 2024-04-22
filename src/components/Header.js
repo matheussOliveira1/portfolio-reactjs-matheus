@@ -4,10 +4,10 @@ function Header() {
   return (
     <>
       <header>
-        <a className="a-header">Experiências</a>
-        <a className="a-header">Tecnologias</a>
-        <a className="a-header">Projetos</a>
-        <a className="a-header">Contato</a>
+        <a className="a-header" href="#h2-experiencias">Experiências</a>
+        <a className="a-header" href="#h2-tecnologias">Tecnologias</a>
+        <a className="a-header" href="#h2-projetos">Projetos</a>
+        <a className="a-header" href="#h2-contatos">Contato</a>
       </header>
     </>
   );

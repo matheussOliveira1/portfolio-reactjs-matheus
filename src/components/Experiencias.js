@@ -14,7 +14,7 @@ function Experiencias() {
 
   return (
     <>
-      <h2>Experiências:</h2>
+      <h2 id="h2-experiencias">Experiências:</h2>
       <div id="container-experiencias">
         <div id="box-botoes-experiencias">
           <BotaoEmpresa empresa={`Accenture Atual`} id="acc" variable={setTextoExperiencias} cor="#FF003D"/>

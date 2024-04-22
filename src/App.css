@@ -13,7 +13,7 @@ header {
   color: #ff003d;
 }
 
-.a-header:hover{
+.a-header:hover {
   cursor: pointer;
 }
 
@@ -23,16 +23,20 @@ h2 {
   color: #ff003d;
 }
 
+.a-header {
+  text-decoration: none;
+  color: inherit;
+}
+
 /******************************************************************************************
                                          1920x1080
 ******************************************************************************************/
 
 @media screen and (min-width: 1024px) {
-  
   /******************************************************************************************
                                          Header
   ******************************************************************************************/
-  
+
   header {
     display: flex;
     font-size: 23px;
@@ -66,7 +70,7 @@ h2 {
     margin: 25px;
   }
 
-  .container-resumo{
+  .container-resumo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,20 +80,20 @@ h2 {
                                          Sessão de Experiencias
   ******************************************************************************************/
 
-  #container-experiencias{
+  #container-experiencias {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  #box-botoes-experiencias{
+  #box-botoes-experiencias {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
   }
 
-  .box-botoes-experiencias{
+  .box-botoes-experiencias {
     display: flex;
     align-items: center;
     color: white;
@@ -98,26 +102,25 @@ h2 {
     font-size: 20px;
   }
 
-  .box-botoes-experiencias:hover{
+  .box-botoes-experiencias:hover {
     cursor: pointer;
   }
 
-  #spn-botao-experiencia{
+  #spn-botao-experiencia {
     width: 150px;
   }
 
-  .btn-empresa-experiencias{
-    background-color: #FF003D;
+  .btn-empresa-experiencias {
+    background-color: #ff003d;
     border-radius: 50px;
     border: 2px solid #424141;
     width: 10px;
     height: 45px;
     color: white;
     font-family: "JetBrains Mono", monospace;
-
   }
 
-  #div-box-texto-experiencias{
+  #div-box-texto-experiencias {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +134,7 @@ h2 {
     text-align: justify;
   }
 
-  #p-texto-experiencias{
+  #p-texto-experiencias {
     width: 650px;
   }
 
@@ -139,13 +142,13 @@ h2 {
                                          Sessão de Tecnologias
   ******************************************************************************************/
 
-  #container-tecnologias{
+  #container-tecnologias {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  #box-tecnologias{
+  #box-tecnologias {
     display: flex;
     width: 50%;
     flex-wrap: wrap;
@@ -153,7 +156,7 @@ h2 {
     justify-content: center;
   }
 
-  #div-square-tecnologia{
+  #div-square-tecnologia {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,11 +170,11 @@ h2 {
     row-gap: 10px;
   }
 
-  #div-square-tecnologia:hover{
+  #div-square-tecnologia:hover {
     cursor: pointer;
   }
 
-  #img-tecnologia{
+  #img-tecnologia {
     width: 65px;
     border-radius: 5px;
     user-select: none;
@@ -185,20 +188,20 @@ h2 {
                                          Sessão de Projetos
   ******************************************************************************************/
 
-  #container-projetos{
+  #container-projetos {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  #box-projetos{
+  #box-projetos {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     gap: 20px;
   }
 
-  #container-projeto{
+  #container-projeto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -209,18 +212,18 @@ h2 {
     color: white;
   }
 
-  #spn-nome-projeto{
+  #spn-nome-projeto {
     display: flex;
     padding-left: 20px;
     margin-top: 15px;
   }
 
-  #p-descricao-projeto{
+  #p-descricao-projeto {
     display: flex;
     padding-left: 20px;
   }
 
-  #a-projeto{
+  #a-projeto {
     text-decoration: none;
     color: inherit;
     display: flex;
@@ -231,8 +234,42 @@ h2 {
     border-top: 2px solid #424141;
   }
 
-  #a-projeto:hover{
+  #a-projeto:hover {
     cursor: pointer;
     background-color: #424141;
+  }
+
+  /******************************************************************************************
+                                         Sessão de Footer
+  ******************************************************************************************/
+
+  #container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+  }
+
+  #box-sociais {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .img-social {
+    width: 50px;
+  }
+
+  #box-contatos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .a-footer{
+    text-decoration: underline;
+    color: #ff003d;
   }
 }

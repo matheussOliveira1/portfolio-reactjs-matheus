@@ -4,6 +4,7 @@ import Resumo from './components/Resumo';
 import Experiencias from './components/Experiencias';
 import Tecnologias from './components/Tecnologias';
 import Projetos from './components/Projetos';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Experiencias />
       <Tecnologias />
       <Projetos />
+      <Footer />
     </div>
   );
 }
