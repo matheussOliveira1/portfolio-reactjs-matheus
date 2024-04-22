@@ -172,6 +172,7 @@ h2 {
   }
 
   #img-tecnologia{
+    width: 65px;
     border-radius: 5px;
     user-select: none;
     -webkit-user-select: none;
@@ -180,4 +181,58 @@ h2 {
     -ms-user-select: none;
   }
 
+  /******************************************************************************************
+                                         Sessão de Projetos
+  ******************************************************************************************/
+
+  #container-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #box-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 20px;
+  }
+
+  #container-projeto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 250px;
+    border: 2px solid #424141;
+    border-radius: 5px;
+    color: white;
+  }
+
+  #spn-nome-projeto{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+
+  #p-descricao-projeto{
+    display: flex;
+    padding-left: 20px;
+  }
+
+  #a-projeto{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    padding-left: 20px;
+    border-top: 2px solid #424141;
+  }
+
+  #a-projeto:hover{
+    cursor: pointer;
+    background-color: #424141;
+  }
 }
