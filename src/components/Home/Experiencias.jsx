@@ -1,4 +1,4 @@
-import "../App.css";
+import styles from "styles/Home/Experiencias.module.css";
 import { useState } from "react";
 import BotaoEmpresa from "./BotaoEmpresa";
 
@@ -14,14 +14,14 @@ function Experiencias() {
 
   return (
     <>
-      <h2 id="h2-experiencias">Experiências:</h2>
-      <div id="container-experiencias">
-        <div id="box-botoes-experiencias">
-          <BotaoEmpresa empresa={`Accenture Atual`} id="acc" variable={setTextoExperiencias} cor="#FF003D"/>
+      <h2 className={styles.h2Experiencias}>Experiências:</h2>
+      <div className={styles.containerExperiencias}>
+        <div className={styles.boxBotoesExperiencias}>
+          <BotaoEmpresa empresa="Accenture Atual" id="acc" variable={setTextoExperiencias} cor="#FF003D"/>
           <BotaoEmpresa empresa="SPTech Acadêmico" id="sptc" variable={setTextoExperiencias} cor="#171717"/>
         </div>
-        <div id="div-box-texto-experiencias">
-          <p id="p-texto-experiencias">{textoExperiencias}</p>
+        <div className={styles.divBoxTextoExperiencias}>
+          <p className={styles.paragrafoTextoExperiencias}>{textoExperiencias}</p>
         </div>
       </div>
     </>

@@ -1,12 +1,12 @@
-import "../App.css";
+import styles from "styles/Home/Projetos.module.css";
 import ItemProjeto from "./ItemProjeto";
 
 function Projetos() {
   return (
     <>
-      <h2 id="h2-projetos">Projetos:</h2>
-      <div id="container-projetos">
-        <div id="box-projetos">
+      <h2>Projetos:</h2>
+      <div className={styles.containerProjetos}>
+        <div className={styles.boxProjetos}>
           <ItemProjeto
             nome="Portfólio"
             descricao="Meu portfólio desenvolvido com React JS, JavaScript, HTML e CSS. Utilizando essas tecnologias, realizei o desenvolvimento deste site responsivo e dinâmico."

@@ -1,0 +1,61 @@
+
+@media screen and (min-width: 1024px) {
+    
+    .containerExperiencias {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .boxBotoesExperiencias {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .boxBotoesExperienciasBotao {
+      display: flex;
+      align-items: center;
+      color: white;
+      gap: 10px;
+      margin-right: 5px;
+      font-size: 20px;
+    }
+  
+    .boxBotoesExperiencias:hover {
+      cursor: pointer;
+    }
+  
+    .spnBotaoExperiencia {
+      width: 150px;
+    }
+  
+    .btnEmpresaExperiencias {
+      background-color: #ff003d;
+      border-radius: 50px;
+      border: 2px solid #424141;
+      width: 10px;
+      height: 45px;
+      color: white;
+      font-family: "JetBrains Mono", monospace;
+    }
+  
+    .divBoxTextoExperiencias {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 750px;
+      height: 400px;
+      border: 2px solid #424141;
+      border-radius: 5px;
+      background-color: #171717;
+      color: white;
+      font-size: 20px;
+      text-align: justify;
+    }
+  
+    .paragrafoTextoExperiencias {
+      width: 650px;
+    }
+}  

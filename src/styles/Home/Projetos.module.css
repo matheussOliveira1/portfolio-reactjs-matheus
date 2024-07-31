@@ -1,0 +1,52 @@
+@media screen and (min-width: 1024px) {
+  .containerProjetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boxProjetos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 20px;
+  }
+
+  .containerProjeto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 250px;
+    border: 2px solid #424141;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .spnNomeProjeto {
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+
+  .paragrafoDescricaoProjeto {
+    display: flex;
+    padding-left: 20px;
+  }
+
+  .aProjeto {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    padding-left: 20px;
+    border-top: 2px solid #424141;
+  }
+
+  .aProjeto:hover {
+    cursor: pointer;
+    background-color: #424141;
+  }
+}

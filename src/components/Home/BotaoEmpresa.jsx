@@ -1,4 +1,4 @@
-import "../App.css";
+import styles from "styles/Home/Experiencias.module.css";
 
 function BotaoEmpresa(props) {
   let setTextoExperiencias = props.variable;
@@ -42,11 +42,11 @@ function BotaoEmpresa(props) {
     <>
       <div
         id="div-btn-empresa"
-        className="box-botoes-experiencias"
+        className={styles.boxBotoesExperienciasBotao}
         onClick={(e) => btnClicado(props.id)}
       >
-        <span className="btn-empresa-experiencias" style={{backgroundColor: props.cor}}></span>
-        <span id="spn-botao-experiencia">{props.empresa}</span>
+        <span className={styles.btnEmpresaExperiencias} style={{backgroundColor: props.cor}}></span>
+        <span className={styles.spnBotaoExperiencia}>{props.empresa}</span>
       </div>
     </>
   );

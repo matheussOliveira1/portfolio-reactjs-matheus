@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 1024px) {
+
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+  }
+
+  .boxSociais {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .imgSocial {
+    width: 50px;
+  }
+
+  .boxContatos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+    gap: 20px;
+  }
+
+  .aFooter{
+    text-decoration: underline;
+    color: #ff003d;
+  }
+}

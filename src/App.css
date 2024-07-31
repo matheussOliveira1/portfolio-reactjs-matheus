@@ -9,267 +9,51 @@ body {
   background-color: #141414;
 }
 
-header {
-  color: #ff003d;
-}
-
-.a-header:hover {
-  cursor: pointer;
-}
-
 h2 {
   display: flex;
   justify-content: center;
   color: #ff003d;
 }
 
-.a-header {
-  text-decoration: none;
-  color: inherit;
-}
-
 /******************************************************************************************
-                                         1920x1080
+                                         WEB
 ******************************************************************************************/
 
 @media screen and (min-width: 1024px) {
-  /******************************************************************************************
-                                         Header
-  ******************************************************************************************/
-
-  header {
-    display: flex;
-    font-size: 23px;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-    padding: 30px 0;
+  #section-index {
+    position: relative;
+    top: 80px;
   }
+}
 
-  /******************************************************************************************
-                                         Sessão de Resumo
-  ******************************************************************************************/
+/******************************************************************************************
+                                         TABLET
+******************************************************************************************/
 
-  .a-caractere-chave-resumo {
-    color: #ff003d;
-    font-size: 350px;
-    font-weight: 250;
-    font-family: "Inter", sans-serif;
-    user-select: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  }
-
-  .p-resumo {
-    color: white;
-    text-align: justify;
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  h2 {
     font-size: 25px;
-    width: 35%;
-    margin: 25px;
   }
+}
 
-  .container-resumo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  /******************************************************************************************
-                                         Sessão de Experiencias
-  ******************************************************************************************/
-
-  #container-experiencias {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #box-botoes-experiencias {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .box-botoes-experiencias {
-    display: flex;
-    align-items: center;
-    color: white;
-    gap: 10px;
-    margin-right: 5px;
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  h2 {
     font-size: 20px;
   }
+}
 
-  .box-botoes-experiencias:hover {
-    cursor: pointer;
+/******************************************************************************************
+                                         CELULAR
+******************************************************************************************/
+
+@media screen and (max-width: 479px) {
+  h2 {
+    font-size: 15px;
   }
+}
 
-  #spn-botao-experiencia {
-    width: 150px;
-  }
-
-  .btn-empresa-experiencias {
-    background-color: #ff003d;
-    border-radius: 50px;
-    border: 2px solid #424141;
-    width: 10px;
-    height: 45px;
-    color: white;
-    font-family: "JetBrains Mono", monospace;
-  }
-
-  #div-box-texto-experiencias {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 750px;
-    height: 400px;
-    border: 2px solid #424141;
-    border-radius: 5px;
-    background-color: #171717;
-    color: white;
-    font-size: 20px;
-    text-align: justify;
-  }
-
-  #p-texto-experiencias {
-    width: 650px;
-  }
-
-  /******************************************************************************************
-                                         Sessão de Tecnologias
-  ******************************************************************************************/
-
-  #container-tecnologias {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #box-tecnologias {
-    display: flex;
-    width: 50%;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-
-  #div-square-tecnologia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 150px;
-    border: 2px solid #424141;
-    border-radius: 6px;
-    font-size: 20px;
-    color: white;
-    row-gap: 10px;
-  }
-
-  #div-square-tecnologia:hover {
-    cursor: pointer;
-  }
-
-  #img-tecnologia {
-    width: 65px;
-    border-radius: 5px;
-    user-select: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-  }
-
-  /******************************************************************************************
-                                         Sessão de Projetos
-  ******************************************************************************************/
-
-  #container-projetos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #box-projetos {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    gap: 20px;
-  }
-
-  #container-projeto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 450px;
-    height: 250px;
-    border: 2px solid #424141;
-    border-radius: 5px;
-    color: white;
-  }
-
-  #spn-nome-projeto {
-    display: flex;
-    padding-left: 20px;
-    margin-top: 15px;
-  }
-
-  #p-descricao-projeto {
-    display: flex;
-    padding-left: 20px;
-  }
-
-  #a-projeto {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 50px;
-    padding-left: 20px;
-    border-top: 2px solid #424141;
-  }
-
-  #a-projeto:hover {
-    cursor: pointer;
-    background-color: #424141;
-  }
-
-  /******************************************************************************************
-                                         Sessão de Footer
-  ******************************************************************************************/
-
-  #container-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    gap: 30px;
-  }
-
-  #box-sociais {
-    display: flex;
-    column-gap: 20px;
-  }
-
-  .img-social {
-    width: 50px;
-  }
-
-  #box-contatos {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    justify-content: space-around;
-    gap: 20px;
-  }
-
-  .a-footer{
-    text-decoration: underline;
-    color: #ff003d;
+@media screen and (min-width: 280px) and (max-width: 364px) {
+  h2 {
+    font-size: 12px;
   }
 }

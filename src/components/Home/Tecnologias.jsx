@@ -1,25 +1,25 @@
-import "../App.css";
+import styles from "styles/Home/Tecnologias.module.css";
 import ItemTecnologia from "./ItemTecnologia";
-import logoJs from "../assets/logo-js.png";
-import nodeJS from "../assets/node-js.png";
-import java from "../assets/java.png";
-import springboot from "../assets/springboot.png";
-import html5 from "../assets/html5.png";
-import css3 from "../assets/css3.png";
-import reactjs from "../assets/reactjs.png";
-import kotlin from "../assets/kotlin.png";
-import docker from "../assets/docker.png";
-import sql from "../assets/sql.png";
-import aws from "../assets/aws.png";
-import azure from "../assets/azure.png";
-import git from "../assets/git.png";
+import logoJs from "assets/logo-js.png";
+import nodeJS from "assets/node-js.png";
+import java from "assets/java.png";
+import springboot from "assets/springboot.png";
+import html5 from "assets/html5.png";
+import css3 from "assets/css3.png";
+import reactjs from "assets/reactjs.png";
+import kotlin from "assets/kotlin.png";
+import docker from "assets/docker.png";
+import sql from "assets/sql.png";
+import aws from "assets/aws.png";
+import azure from "assets/azure.png";
+import git from "assets/git.png";
 
 function Tecnologias() {
   return (
     <>
-      <h2 id="h2-tecnologias">Tecnologias:</h2>
-      <div id="container-tecnologias">
-        <div id="box-tecnologias">
+      <h2 className={styles.h2Tecnologias}>Tecnologias:</h2>
+      <div className={styles.containerTecnologias}>
+        <div className={styles.boxTecnologias}>
           <ItemTecnologia srcImg={logoJs} tecnologia="JavaScript" /*https://icons8.com.br/*/ />
           <ItemTecnologia srcImg={nodeJS} tecnologia="NodeJS" /*https://icons8.com.br/*/ />
           <ItemTecnologia srcImg={java} tecnologia="Java" /*https://icons8.com.br/*/ />
