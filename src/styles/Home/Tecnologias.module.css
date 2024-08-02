@@ -27,10 +27,7 @@
       font-size: 20px;
       color: white;
       row-gap: 10px;
-    }
-  
-    .divSquareTecnologia {
-      cursor: pointer;
+      user-select: none;
     }
   
     .imgTecnologia {

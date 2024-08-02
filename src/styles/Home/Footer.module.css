@@ -7,6 +7,8 @@
     align-items: center;
     color: white;
     gap: 30px;
+    height: 300px;
+    justify-content: center;
   }
 
   .boxSociais {
@@ -20,10 +22,10 @@
 
   .boxContatos {
     display: flex;
-    flex-wrap: wrap;
     width: 50%;
-    justify-content: space-around;
+    align-items: center;
     gap: 20px;
+    flex-direction: column;
   }
 
   .aFooter{

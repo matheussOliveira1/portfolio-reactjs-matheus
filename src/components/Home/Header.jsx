@@ -1,13 +1,14 @@
+import { Link } from "react-scroll";
 import styles from "styles/Home/Header.module.css";
 
 function Header() {
   return (
     <>
-      <header>
-        <a href="#h2-experiencias">Experiências</a>
-        <a href="#h2-tecnologias">Tecnologias</a>
-        <a href="#h2-projetos">Projetos</a>
-        <a href="#h2-contatos">Contato</a>
+      <header id="header-link-popup">
+        <Link className="header-link" to="h2-experiencias" smooth={true} offset={-10}>Experiências</Link>
+        <Link className="header-link" to="h2-tecnologias" smooth={true} offset={-10}>Tecnologias</Link>
+        <Link className="header-link" to="h2-projetos" smooth={true} offset={-10}>Projetos</Link>
+        <Link className="header-link" to="h2-footer" smooth={true}>Contato</Link>
       </header>
     </>
   );

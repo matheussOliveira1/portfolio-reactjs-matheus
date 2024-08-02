@@ -1,7 +1,6 @@
 import styles from "styles/Home/Tecnologias.module.css";
 
 function ItemTecnologia(props) {
-  console.log(document.getElementById("spn-tecnologia"));
 
   return (
     <>
@@ -11,6 +10,7 @@ function ItemTecnologia(props) {
       </div>
     </>
   );
+  
 }
 
 export default ItemTecnologia;

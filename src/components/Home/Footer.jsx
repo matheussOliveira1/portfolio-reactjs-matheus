@@ -6,7 +6,7 @@ import curriculo from "assets/curriculo.png";
 function Footer() {
   return (
     <>
-      <h2>Contato:</h2>
+      <h2 id="h2-footer" style={{marginBottom: 0}}>Contato:</h2>
       <div className={styles.containerFooter}>
         <div className={styles.boxSociais}>
           <a href="https://github.com/matheussOliveira1">
@@ -15,7 +15,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/matheus-oliveira-b65955243/">
             <img className={styles.imgSocial} src={linkedin} />
           </a>
-          <a href="https://drive.google.com/file/d/1fyOrOa8II9Uqwxn9myMWffM2Tawuq71j/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1FSHJJvrc92CvrVavowlsNHm0ORr1kr3w/view?usp=sharing">
             <img className={styles.imgSocial} src={curriculo} />
           </a>
         </div>
