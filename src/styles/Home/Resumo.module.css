@@ -1,28 +1,104 @@
-@media screen and (min-width: 1024px) {
-    
-    .caractereChaveResumo {
-      color: #ff003d;
-      font-size: 350px;
-      font-weight: 250;
-      font-family: "Inter", sans-serif;
-      user-select: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-    }
-  
-    .paragrafoResumo {
-      color: white;
-      text-align: justify;
-      font-size: 25px;
-      width: 35%;
-      margin: 25px;
-    }
-  
-    .containerResumo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+.caractereChaveResumo {
+  color: #ff003d;
+  font-family: "Inter", sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  font-weight: 250;
+}
+
+.paragrafoResumo {
+  color: white;
+}
+
+.containerResumo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/******************************************************************************************
+                                         WEB
+******************************************************************************************/
+
+@media screen and (min-width: 1440px) {
+  .caractereChaveResumo {
+    font-size: 280px;
+  }
+
+  .paragrafoResumo {
+    font-size: 25px;
+    width: 35%;
+    margin: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .caractereChaveResumo {
+    font-size: 280px;
+  }
+
+  .paragrafoResumo {
+    font-size: 25px;
+    width: 50%;
+    margin: 25px;
+  }
+}
+
+/******************************************************************************************
+                                         TABLET
+******************************************************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .caractereChaveResumo {
+    font-size: 190px;
+  }
+
+  .paragrafoResumo {
+    font-size: 20px;
+    width: 70%;
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .caractereChaveResumo {
+    font-size: 130px;
+  }
+
+  .paragrafoResumo {
+    font-size: 15px;
+    width: 60%;
+    margin: 5px;
+  }
+}
+
+/******************************************************************************************
+                                         CELULAR
+******************************************************************************************/
+
+@media screen and (min-width: 365px) and (max-width: 479px) {
+  .caractereChaveResumo {
+    font-size: 100px;
+  }
+
+  .paragrafoResumo {
+    font-size: 11px;
+    width: 80%;
+    margin: 5px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 364px) {
+  .caractereChaveResumo {
+    font-size: 70px;
+  }
+
+  .paragrafoResumo {
+    font-size: 10px;
+    width: 80%;
+    margin: 10px;
+  }
 }

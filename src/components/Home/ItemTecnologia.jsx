@@ -5,7 +5,7 @@ function ItemTecnologia(props) {
   return (
     <>
       <div className={styles.divSquareTecnologia}>
-        <img className={styles.imgTecnologia} src={props.srcImg} style={{ width: props.width }} />
+        <img className={styles.imgTecnologia} src={props.srcImg} />
         <span className={styles.spnTecnologia}>{props.tecnologia}</span>
       </div>
     </>

@@ -16,11 +16,7 @@ export const tecnologias = [
   { srcImg: logoJs, tecnologia: "JavaScript" /*https://icons8.com.br/*/ },
   { srcImg: nodeJS, tecnologia: "NodeJS" /*https://icons8.com.br/*/ },
   { srcImg: java, tecnologia: "Java" /*https://icons8.com.br/*/ },
-  {
-    srcImg: springboot,
-    tecnologia: "Spring Boot",
-    width: "71px" /*https://www.vitoracdesign.com.br/*/,
-  },
+  { srcImg: springboot, tecnologia: "Spring Boot" /*https://icons8.com.br/*/ },
   { srcImg: html5, tecnologia: "HTML5" /*https://icons8.com.br/*/ },
   { srcImg: css3, tecnologia: "CSS3" /*https://icons8.com.br/*/ },
   {

@@ -1,35 +1,69 @@
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  gap: 30px;
+  height: 300px;
+  justify-content: center;
+}
+
+.boxSociais {
+  display: flex;
+  column-gap: 20px;
+}
+
+.imgSocial {
+  width: 50px;
+}
+
+.boxContatos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.aFooter {
+  text-decoration: underline;
+  color: #ff003d;
+}
+
+/******************************************************************************************
+                                         WEB
+******************************************************************************************/
 
 @media screen and (min-width: 1024px) {
-
-  .containerFooter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    gap: 30px;
-    height: 300px;
-    justify-content: center;
-  }
-
-  .boxSociais {
-    display: flex;
-    column-gap: 20px;
-  }
-
-  .imgSocial {
-    width: 50px;
-  }
-
   .boxContatos {
-    display: flex;
     width: 50%;
-    align-items: center;
-    gap: 20px;
-    flex-direction: column;
   }
+}
 
-  .aFooter{
-    text-decoration: underline;
-    color: #ff003d;
+/******************************************************************************************
+                                         TABLET
+******************************************************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .boxContatos {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .boxContatos {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+/******************************************************************************************
+                                         CELULAR
+******************************************************************************************/
+
+@media screen and (min-width: 280px) and (max-width: 479px) {
+  .boxContatos {
+    width: 90%;
+    font-size: 14px;
   }
 }

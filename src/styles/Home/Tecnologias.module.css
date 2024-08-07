@@ -1,42 +1,132 @@
+.imgTecnologia {
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
 
-@media screen and (min-width: 1024px) {
-    
-    .containerTecnologias {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    .boxTecnologias {
-      display: flex;
-      width: 50%;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-  
-    .divSquareTecnologia {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 200px;
-      height: 150px;
-      border: 2px solid #424141;
-      border-radius: 6px;
-      font-size: 20px;
-      color: white;
-      row-gap: 10px;
-      user-select: none;
-    }
-  
-    .imgTecnologia {
-      width: 65px;
-      border-radius: 5px;
-      user-select: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-    }
-}  
+.containerTecnologias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.divSquareTecnologia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #424141;
+  border-radius: 6px;
+  color: white;
+  row-gap: 10px;
+  user-select: none;
+}
+
+.imgTecnologia {
+  border-radius: 5px;
+}
+
+/******************************************************************************************
+                                         WEB
+******************************************************************************************/
+
+@media screen and (min-width: 1304px) {
+  .boxTecnologias {
+    width: 50%;
+    gap: 20px;
+  }
+
+  .divSquareTecnologia {
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+  }
+
+  .imgTecnologia {
+    width: 65px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1303px) {
+  .boxTecnologias {
+    width: 90%;
+    gap: 20px;
+  }
+
+  .divSquareTecnologia {
+    width: 200px;
+    height: 150px;
+    font-size: 20px;
+  }
+
+  .imgTecnologia {
+    width: 65px;
+  }
+}
+
+/******************************************************************************************
+                                         TABLET
+******************************************************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .boxTecnologias {
+    width: 90%;
+    gap: 10px;
+  }
+
+  .divSquareTecnologia {
+    width: 140px;
+    height: 140px;
+    font-size: 18px;
+  }
+
+  .imgTecnologia {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .boxTecnologias {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .divSquareTecnologia {
+    width: 140px;
+    height: 140px;
+    font-size: 16px;
+  }
+
+  .imgTecnologia {
+    width: 50px;
+  }
+}
+
+/******************************************************************************************
+                                         CELULAR
+******************************************************************************************/
+
+@media screen and (min-width: 280px) and (max-width: 479px) {
+  .boxTecnologias {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .divSquareTecnologia {
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+  }
+
+  .imgTecnologia {
+    width: 35px;
+  }
+}

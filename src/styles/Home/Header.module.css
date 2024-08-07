@@ -1,12 +1,48 @@
+/******************************************************************************************
+                                         WEB
+******************************************************************************************/
+
 @media screen and (min-width: 1024px) {
 
-    header {
-      display: flex;
-      font-size: 23px;
-      align-items: center;
-      justify-content: center;
-      gap: 90px;
-      padding: 30px 0 0 0;
-    }
-    
+  header {
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 30px 0 0 0;
+  }
+  
+}
+
+/******************************************************************************************
+                                         TABLET
+******************************************************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  header{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  header{
+    display: none;
+  }
+}
+
+/******************************************************************************************
+                                         CELULAR
+******************************************************************************************/
+
+@media screen and (min-width: 365px) and (max-width: 479px) {
+  header{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 364px) {
+  header{
+    display: none;
+  }
 }

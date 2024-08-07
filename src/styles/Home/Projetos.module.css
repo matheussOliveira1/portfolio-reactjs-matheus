@@ -1,52 +1,183 @@
+.containerProjetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxProjetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerProjeto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #424141;
+  border-radius: 5px;
+  color: white;
+}
+
+.spnNomeProjeto {
+  display: flex;
+}
+
+.paragrafoDescricaoProjeto {
+  display: flex;
+  padding-left: 20px;
+}
+
+.aProjeto {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  padding-left: 20px;
+  border-top: 2px solid #424141;
+}
+
+/******************************************************************************************
+                                         WEB
+******************************************************************************************/
+
 @media screen and (min-width: 1024px) {
-  .containerProjetos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .boxProjetos {
-    display: flex;
-    flex-wrap: wrap;
     width: 50%;
     gap: 20px;
   }
 
   .containerProjeto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 450px;
     height: 250px;
-    border: 2px solid #424141;
-    border-radius: 5px;
-    color: white;
   }
 
   .spnNomeProjeto {
-    display: flex;
     padding-left: 20px;
     margin-top: 15px;
   }
 
   .paragrafoDescricaoProjeto {
-    display: flex;
     padding-left: 20px;
-  }
-
-  .aProjeto {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 50px;
-    padding-left: 20px;
-    border-top: 2px solid #424141;
   }
 
   .aProjeto:hover {
     cursor: pointer;
     background-color: #424141;
+  }
+}
+
+/******************************************************************************************
+                                         TABLET
+******************************************************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .boxProjetos {
+    gap: 10px;
+  }
+
+  .containerProjeto {
+    width: 370px;
+    height: 200px;
+  }
+
+  .spnNomeProjeto {
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .paragrafoDescricaoProjeto {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .aProjeto {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .boxProjetos {
+    gap: 10px;
+  }
+
+  .containerProjeto {
+    width: 430px;
+    height: 200px;
+  }
+
+  .spnNomeProjeto {
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  .paragrafoDescricaoProjeto {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .aProjeto {
+    font-size: 16px;
+  }
+}
+
+/******************************************************************************************
+                                         CELULAR
+******************************************************************************************/
+
+@media screen and (min-width: 365px) and (max-width: 479px) {
+  .boxProjetos {
+    gap: 10px;
+  }
+
+  .containerProjeto {
+    width: 340px;
+    height: 180px;
+  }
+
+  .spnNomeProjeto {
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .paragrafoDescricaoProjeto {
+    font-size: 11px;
+    margin: 0;
+  }
+
+  .aProjeto {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 364px) {
+  .boxProjetos {
+    gap: 10px;
+  }
+
+  .containerProjeto {
+    width: 300px;
+    height: 180px;
+  }
+
+  .spnNomeProjeto {
+    padding-left: 20px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .paragrafoDescricaoProjeto {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .aProjeto {
+    font-size: 10px;
   }
 }
