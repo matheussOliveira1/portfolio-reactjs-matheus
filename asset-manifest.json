@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/matheussoliveira1.github.io/static/css/main.f536cef6.css",
+    "main.js": "/matheussoliveira1.github.io/static/js/main.46152893.js",
+    "static/media/reactjs.png": "/matheussoliveira1.github.io/static/media/reactjs.b00592bbf30f188b2eb4.png",
+    "index.html": "/matheussoliveira1.github.io/index.html",
+    "main.f536cef6.css.map": "/matheussoliveira1.github.io/static/css/main.f536cef6.css.map",
+    "main.46152893.js.map": "/matheussoliveira1.github.io/static/js/main.46152893.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f536cef6.css",
+    "static/js/main.46152893.js"
+  ]
+}
