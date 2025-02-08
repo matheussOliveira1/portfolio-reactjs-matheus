@@ -15,7 +15,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/matheus-oliveira-b65955243/">
             <img className={styles.imgSocial} src={linkedin} alt="" />
           </a>
-          <a href="https://drive.google.com/file/d/1FSHJJvrc92CvrVavowlsNHm0ORr1kr3w/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1dPFl18j13FcmGTKob0igk1Ae_6wAMvx8/view?usp=sharing">
             <img className={styles.imgSocial} src={curriculo} alt="" />
           </a>
         </div>

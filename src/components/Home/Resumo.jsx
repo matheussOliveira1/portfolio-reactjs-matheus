@@ -7,7 +7,7 @@ function Resumo() {
       <div className={styles.containerResumo}>
         <a className={styles.caractereChaveResumo}>&#123;</a>
         <p className={styles.paragrafoResumo}>
-          “Sou formado em Análise e Desenvolvimento de Sistemas
+          “Formado em Análise e Desenvolvimento de Sistemas
           pela São Paulo Tech School. Tenho experiência no mercado de tecnologia
           desde agosto de 2022 e dois anos de acadêmico.
           <br />
