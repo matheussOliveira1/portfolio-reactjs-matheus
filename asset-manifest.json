@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-reactjs-matheus/static/css/main.f536cef6.css",
-    "main.js": "/portfolio-reactjs-matheus/static/js/main.5988b94d.js",
+    "main.css": "/portfolio-reactjs-matheus/static/css/main.80502b6b.css",
+    "main.js": "/portfolio-reactjs-matheus/static/js/main.cef447e2.js",
     "static/media/reactjs.png": "/portfolio-reactjs-matheus/static/media/reactjs.b00592bbf30f188b2eb4.png",
     "index.html": "/portfolio-reactjs-matheus/index.html",
-    "main.f536cef6.css.map": "/portfolio-reactjs-matheus/static/css/main.f536cef6.css.map",
-    "main.5988b94d.js.map": "/portfolio-reactjs-matheus/static/js/main.5988b94d.js.map"
+    "main.80502b6b.css.map": "/portfolio-reactjs-matheus/static/css/main.80502b6b.css.map",
+    "main.cef447e2.js.map": "/portfolio-reactjs-matheus/static/js/main.cef447e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f536cef6.css",
-    "static/js/main.5988b94d.js"
+    "static/css/main.80502b6b.css",
+    "static/js/main.cef447e2.js"
   ]
 }
