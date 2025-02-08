@@ -10,13 +10,13 @@ function Footer() {
       <div className={styles.containerFooter}>
         <div className={styles.boxSociais}>
           <a href="https://github.com/matheussOliveira1">
-            <img className={styles.imgSocial} src={github} />
+            <img className={styles.imgSocial} src={github} alt="" />
           </a>
           <a href="https://www.linkedin.com/in/matheus-oliveira-b65955243/">
-            <img className={styles.imgSocial} src={linkedin} />
+            <img className={styles.imgSocial} src={linkedin} alt="" />
           </a>
           <a href="https://drive.google.com/file/d/1FSHJJvrc92CvrVavowlsNHm0ORr1kr3w/view?usp=sharing">
-            <img className={styles.imgSocial} src={curriculo} />
+            <img className={styles.imgSocial} src={curriculo} alt="" />
           </a>
         </div>
         <div className={styles.boxContatos}>

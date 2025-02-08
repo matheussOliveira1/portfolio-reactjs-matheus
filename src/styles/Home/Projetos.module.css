@@ -26,6 +26,7 @@
 .paragrafoDescricaoProjeto {
   display: flex;
   padding-left: 20px;
+  width: 85%;
 }
 
 .aProjeto {

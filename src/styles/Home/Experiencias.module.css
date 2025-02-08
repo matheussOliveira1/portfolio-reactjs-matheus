@@ -25,6 +25,7 @@
   background-color: #171717;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .divBoxTextoExperiencias {
@@ -191,7 +192,7 @@
 
   .spnBotaoExperiencia {
     width: 90px;
-    font-size: 10px;
+    font-size: 8px;
     height: 30px;
   }
 
@@ -228,12 +229,12 @@
   }
 
   .boxBotoesExperienciasBotao {
-    gap: 5px;
+    gap: 2px;
   }
 
   .spnBotaoExperiencia {
     width: 90px;
-    font-size: 10px;
+    font-size: 8px;
     height: 30px;
   }
 
@@ -249,11 +250,11 @@
 
   .btnAtivado {
     width: 9px;
-    height: 23px;
+    height: 25px;
   }
 
   .btnDesativado {
     width: 9px;
-    height: 23px;
+    height: 25px;
   }
 }

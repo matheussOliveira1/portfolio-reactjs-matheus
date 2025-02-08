@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import styles from "styles/Home/Header.module.css";
+import "styles/Home/Header.css";
 
 function Header() {
   return (

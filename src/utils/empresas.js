@@ -19,4 +19,15 @@ export const empresas = [
       "scripts shell e integração com Jenkins. Além disso, integrei APIs externas\n" +
       "para expandir as funcionalidades e melhorar a experiência do usuário.",
   },
+  {
+    nome: "CFOaaS (Freelancer)",
+    texto:
+      "Neste projeto como freelancer, aceitei o desafio de desenvolver uma\n" + 
+      "aplicação completamente do zero, atuando tanto no front-end quanto no\n" + 
+      "back-end. Além da implementação da interface e da lógica de negócio,\n" + 
+      "também fui responsável pela configuração do banco de dados e pela\n" + 
+      "implantação completa para o cliente. Essa experiência me permitiu\n" + 
+      "expandir meus conhecimentos e enfrentar novos desafios em um\n" + 
+      "contexto profissional.",
+  },
 ];

@@ -3,18 +3,21 @@
 ******************************************************************************************/
 
 body {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Open Sans", serif;
   font-optical-sizing: auto;
   font-style: normal;
   background-color: #141414;
   margin: 0;
   display: flex;
+  font-weight: 600;
 }
 
 h2 {
   display: flex;
   justify-content: center;
   color: #ff003d;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 a {

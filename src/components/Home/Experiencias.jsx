@@ -16,6 +16,7 @@ function Experiencias() {
         <div className={styles.boxBotoesExperiencias}>
           <BotaoEmpresa empresa={empresas[0].nome} onClick={() => setEmpresaAtiva(empresas[0])} estilo={empresaAtiva.nome === empresas[0].nome ? styles.btnAtivado : styles.btnDesativado} />
           <BotaoEmpresa empresa={empresas[1].nome} onClick={() => setEmpresaAtiva(empresas[1])} estilo={empresaAtiva.nome === empresas[1].nome ? styles.btnAtivado : styles.btnDesativado} />
+          <BotaoEmpresa empresa={empresas[2].nome} onClick={() => setEmpresaAtiva(empresas[2])} estilo={empresaAtiva.nome === empresas[2].nome ? styles.btnAtivado : styles.btnDesativado} />
         </div>
         <div className={styles.divBoxTextoExperiencias}>
           <p className={styles.paragrafoTextoExperiencias}>
